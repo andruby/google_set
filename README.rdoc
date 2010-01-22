@@ -8,7 +8,7 @@ Simple API for {Google Sets}[http://labs.google.com/sets]
   => ["apple", "orange", "chocolate", "strawberry", "cherry", "lemon", "vanilla", "sweet", "banana", "blended", "raspberry", "grape", "pear", "cinnamon", "caramel", "lime", "mint", "coconut", "blueberry", "almond", "assorted", "peanut", "mango", "blackberry", "apricot", "organic", "peach", "pineapple", "dry", "chipped", "watermelon", "kiwi", "papaya", "soy", "roasted", "pomegranate", "salted", "lychee", "citrus", "tamarind"]
 
 == Acknowledgements
-  Based on {bjeanes}[http://github.com/bjeanes] similar gem {google_sets}[http://github.com/bjeanes/google-sets/]
+Based on {bjeanes}[http://github.com/bjeanes] similar gem {google_sets}[http://github.com/bjeanes/google-sets/]
 
 == Note on Patches/Pull Requests
  
