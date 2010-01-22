@@ -8,7 +8,7 @@ begin
     gem.summary = %Q{Simple API for Google Sets}
     gem.description = %Q{Simple API for Google Sets}
     gem.email = "dev+dcadenas@cuboxsa.com"
-    gem.homepage = "http://github.com/dcadenas/google_set"
+    gem.homepage = "http://github.com/cubox/google_set"
     gem.authors = ["Daniel Cadenas"]
     gem.add_development_dependency "rspec", ">= 1.2.9"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
