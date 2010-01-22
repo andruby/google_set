@@ -5,8 +5,8 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "google_set"
-    gem.summary = %Q{TODO: one-line summary of your gem}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.summary = %Q{Simple API for Google Sets}
+    gem.description = %Q{Simple API for Google Sets}
     gem.email = "dev+dcadenas@cuboxsa.com"
     gem.homepage = "http://github.com/dcadenas/google_set"
     gem.authors = ["Daniel Cadenas"]
