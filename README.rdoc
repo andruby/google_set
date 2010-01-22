@@ -1,6 +1,14 @@
 = google_set
 
-Description goes here.
+Simple API for {Google Sets}[http://labs.google.com/sets]
+
+== Usage
+
+  >> GoogleSet.for("orange", "apple")
+  => ["apple", "orange", "chocolate", "strawberry", "cherry", "lemon", "vanilla", "sweet", "banana", "blended", "raspberry", "grape", "pear", "cinnamon", "caramel", "lime", "mint", "coconut", "blueberry", "almond", "assorted", "peanut", "mango", "blackberry", "apricot", "organic", "peach", "pineapple", "dry", "chipped", "watermelon", "kiwi", "papaya", "soy", "roasted", "pomegranate", "salted", "lychee", "citrus", "tamarind"]
+
+== Acknowledgements
+  Based on {bjeanes}[http://github.com/bjeanes] similar gem {google_sets}[http://github.com/bjeanes/google-sets/]
 
 == Note on Patches/Pull Requests
  
@@ -14,4 +22,4 @@ Description goes here.
 
 == Copyright
 
-Copyright (c) 2010 Daniel Cadenas. See LICENSE for details.
+Copyright (c) 2010 Cubox. See LICENSE for details.
