@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{google_set}
-  s.version = "0.1.0"
+  s.version = "0.2.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Daniel Cadenas"]
-  s.date = %q{2010-01-22}
+  s.date = %q{2010-02-20}
   s.description = %q{Simple API for Google Sets}
   s.email = %q{dev+dcadenas@cuboxsa.com}
   s.extra_rdoc_files = [
