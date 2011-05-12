@@ -13,7 +13,7 @@ class GoogleSet
   def self.for(*terms)
     path = "http://labs.google.com/sets?&#{query_string(*terms)}"
     result = open(path).read
-    result.scan(%r{<a href="http://www\.google\.com/search\?hl=en&amp;q=[^"]+">(.*?)</a>}).map {|i| i.to_s}
+    result.scan(%r{<a href="http://www\.google\.com/search\?hl=en&amp;q=[^"]+">(.*?)</a>}).flatten
   rescue StandardError => e
     raise GoogleSet::Error.new(e)
   end
